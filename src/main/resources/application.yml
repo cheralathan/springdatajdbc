@@ -1,0 +1,16 @@
+spring:
+  h2:
+    console:
+      enabled: on
+      path:
+      settings:
+        trace: on
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core:
+            JdbcTemplate: debug
+
